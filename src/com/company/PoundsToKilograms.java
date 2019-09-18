@@ -7,7 +7,7 @@ public class PoundsToKilograms {
         Scanner snapple=new Scanner(System.in);
         System.out.println("Enter the number of pounds");
 
-        double lbs = snapple.nextInt();
+        double lbs = snapple.nextDouble();
         double kg = lbs/2.205;
         System.out.print(lbs+" pounds =");
         System.out.print(kg+"kilograms");
