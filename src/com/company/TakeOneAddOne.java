@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class TakeOneAddOne {
     public static void main (String[]args){
         Scanner toao=new Scanner(System.in);
-        System.out.println("Enter a number");
+        System.out.print("Enter a number :");
         int urnum = toao.nextInt();
         int sss=urnum;
         int adding = sss++;
